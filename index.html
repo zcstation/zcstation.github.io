@@ -1,1 +1,78 @@
-"Hello,world!" 
+<!DOCTYPE html>
+<html lang="zh-hans">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>凭栏知潇雨</title>
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+
+        body, h3, p, div {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            position: relative;
+            overflow: hidden;
+        }
+
+        body:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: transparent url("/static/image/wKgJUloqJC3z7u5YAAZxzfn968Q052.jpg") center center no-repeat;
+            filter: blur(5px);
+            background-size: cover;
+            z-index: 1;
+        }
+
+        .content {
+            z-index: 1024;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+        }
+        h3{
+            line-height: 48px;
+        }
+        .author{
+            color: #555;
+            font-size: 14px;
+            line-height: 28px;
+        }
+        .content>p{
+            line-height: 32px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <h3>满江红·写怀</h3>
+    <div class="author">宋代：岳飞</div>
+    <p>怒发冲冠，凭栏处、潇潇雨歇。</p>
+    <p>抬望眼，仰天长啸，壮怀激烈。</p>
+    <p>三十功名尘与土，八千里路云和月。</p>
+    <p>莫等闲，白了少年头，空悲切！</p>
+    <p>靖康耻，犹未雪。</p>
+    <p>臣子恨，何时灭！</p>
+    <p>驾长车，踏破贺兰山缺。</p>
+    <p>壮志饥餐胡虏肉，笑谈渴饮匈奴血。</p>
+    <p>待从头、收拾旧山河，朝天阙。</p>
+</div>
+</body>
+</html>
